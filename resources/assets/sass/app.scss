@@ -1,0 +1,78 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+}
+// set the backgrond of the page
+body {
+  background-color:#ffffff;
+}
+
+
+.flex {
+  flex:1;
+}
+
+// adding in a margin
+.mr-1 {
+  margin-right:2em
+}
+
+.level {
+  display:flex; align-items:center;
+}
+
+
+#showcase .container p{
+  min-height:5px;
+  text-align: center;
+}
+#showcase .container h1{
+  font-size: 50px;
+  text-align: left;
+}
+header{
+  float: right;
+}
+#boxes{
+  margin-top: 100px;
+}
+#boxes .box {
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+}
+#boxes .box img{
+width: 150px;
+}
+
+#footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  padding:7px;
+  height:50px;   /* Height of the footer */
+  text-align: center;
+   background:#000000;
+}
+// footer{
+//
+//   margin-top: 420px;
+//
+//   background-color: #000000;
+// }
+img:hover{
+  transform: scale(1.1);
+}
+img{
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
